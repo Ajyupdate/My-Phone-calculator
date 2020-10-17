@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Blackview A20 calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col" id="display-col">0</div>
+            </div>
+
+            <div class="row">
+                <div class="col col-num input-btn" id="btn-7">7</div>
+                <div class="col col-num input-btn" id="btn-8">8</div>
+                <div class="col col-num input-btn" id="btn-9">9</div>
+                <div class="col col-operator input-btn" id="btn-del" onclick="del()">DEL</div>
+            </div>
+
+            <div class="row">
+                <div class="col col-num input-btn" id="btn-4">4</div>
+                <div class="col col-num input-btn" id="btn-5">5</div>
+                <div class="col col-num input-btn" id="btn-6">6</div>
+                <div class="col col-operator input-btn" id="btn-divide">/</div>
+            </div>
+
+            <div class="row">
+                <div class="col col-num input-btn" id="btn-1">1</div>
+                <div class="col col-num input-btn" id="btn-2">2</div>
+                <div class="col col-num input-btn" id="btn-3">3</div>
+                <div class="col col-operator input-btn" id="btn-multiply">x</div>
+            </div>
+
+            <div class="row">
+
+                <div class="col  input-btn" id="btn-decimal-point" onclick="decimalpoint()">.</div>
+                <div class="col col-num input-btn" id="btn-zero">0</div>
+                <div class="col col-operator input-btn" id="btn-equalto">=</div>
+                <div class="col col-operator input-btn" id="btn-add">+</div>
+                <div class="col col-operator input-btn" id="btn-minus">-</div>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>

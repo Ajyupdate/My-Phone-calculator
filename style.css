@@ -1,0 +1,40 @@
+.row{
+    display: table;
+    table-layout: fixed;
+    width: 225px;
+    margin: auto;
+}
+.col{
+    display: table-cell ;
+}
+
+#display-col{
+    height: 100px; 
+   color: black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    overflow: hidden;
+    padding: 12px;
+    border-radius: 8px 9px 0px 0px;
+    text-align: right;
+    font-size: 50px;
+}
+
+.input-btn{
+    background-color: rgb(67, 67, 67);
+    color: white;
+    width: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 27px;
+    font-weight: 80;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.input-btn:hover{
+    background-color: rgb(99, 99, 99);
+}
+.col-operator{
+    background-color: rgb(99, 99, 99);
+}
